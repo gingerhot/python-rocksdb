@@ -28,7 +28,7 @@ A more production ready open can look like this ::
 
     db = rocksdb.DB("test.db", opts)
 
-It assings a cache of 2.5G, uses a bloom filter for faster lookups and keeps
+It assigns a cache of 2.5G, uses a bloom filter for faster lookups and keeps
 more data (64 MB) in memory before writting a .sst file.
 
 About Bytes And Unicode
